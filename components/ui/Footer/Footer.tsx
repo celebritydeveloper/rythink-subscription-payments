@@ -8,7 +8,7 @@ import s from './Footer.module.css';
 export default function Footer() {
   return (
     <footer className="mx-auto max-w-[1920px] px-6 bg-zinc-900">
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 border-b border-zinc-600 py-12 text-white transition-colors duration-150 bg-zinc-900">
+      {/* <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 border-b border-zinc-600 py-12 text-white transition-colors duration-150 bg-zinc-900">
         <div className="col-span-1 lg:col-span-2">
           <Link
             href="/"
@@ -91,10 +91,10 @@ export default function Footer() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4 bg-zinc-900">
         <div>
-          <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+          <span>&copy; 2023 Rythink, Inc. All rights reserved.</span>
         </div>
         <div className="flex items-center">
           <span className="text-white">Crafted by</span>

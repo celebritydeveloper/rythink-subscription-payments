@@ -43,7 +43,30 @@ export default function Layout({ children, meta: pageMeta }: Props) {
         <meta name="twitter:image" content={meta.cardImage} />
       </Head>
       <Navbar />
-      <main id="skip">{children}</main>
+        <main id="skip">
+          <section>
+            <div className="w-[80%] mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-0">
+              <div className="flex justify-between items-center">
+                <h2 className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl w-[40%]">
+                Fast & Reliable {" "}
+                  <span
+                    className="text-pink-500">
+                    Writing Assistant
+                  </span>
+                  .
+                </h2>
+
+                <div className="w-[40%]">
+                  <video src="https://secondhand-sandy.vercel.app/feature-1.mp4"></video>
+                </div>
+              </div>
+            </div>
+              
+          </section>
+          <section>
+            {children}
+          </section>
+        </main>
       <Footer />
     </>
   );
